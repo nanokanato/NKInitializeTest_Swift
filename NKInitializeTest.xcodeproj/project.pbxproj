@@ -12,8 +12,8 @@
 		30452DC71B6755AE008639BF /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30452DBD1B6755AE008639BF /* Default-667h@2x.png */; };
 		30452DC81B6755AE008639BF /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30452DBE1B6755AE008639BF /* Default-736h@3x.png */; };
 		30452DC91B6755AE008639BF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30452DBF1B6755AE008639BF /* Default@2x.png */; };
-		30452DCA1B6755AE008639BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30452DC31B6755AE008639BF /* AppDelegate.swift */; };
 		30452DCC1B6755AE008639BF /* NKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30452DC51B6755AE008639BF /* NKViewController.swift */; };
+		30452DCF1B676585008639BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30452DCE1B676585008639BF /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,9 @@
 		30452DBD1B6755AE008639BF /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 		30452DBE1B6755AE008639BF /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
 		30452DBF1B6755AE008639BF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		30452DC31B6755AE008639BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Boot/AppDelegate.swift; sourceTree = "<group>"; };
 		30452DC51B6755AE008639BF /* NKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NKViewController.swift; sourceTree = "<group>"; };
+		30452DCD1B676454008639BF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		30452DCE1B676585008639BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +113,9 @@
 		30452DC11B6755AE008639BF /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				30452DC31B6755AE008639BF /* AppDelegate.swift */,
+				30452DCE1B676585008639BF /* AppDelegate.swift */,
 				30452DC51B6755AE008639BF /* NKViewController.swift */,
+				30452DCD1B676454008639BF /* README.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -190,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30452DCA1B6755AE008639BF /* AppDelegate.swift in Sources */,
+				30452DCF1B676585008639BF /* AppDelegate.swift in Sources */,
 				30452DCC1B6755AE008639BF /* NKViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +324,7 @@
 				30452DB51B675562008639BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
